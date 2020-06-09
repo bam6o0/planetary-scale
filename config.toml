@@ -16,7 +16,7 @@ noClasses = false
 unsafe = true  # enable raw HTML in Markdown
 
 [params]
-style = "light"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
+style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
 dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
 logo = "space_by_kosmofish.png"  # if you have a logo png
 license = ""  # CC License
@@ -40,15 +40,19 @@ addThisId = ""
 inlineToolId = ""
 
 [params.nav]
-showCategories = true       # /categories/
-showTags = true             # /tags/
+showCategories = false    # /categories/
+showTags = false          # /tags/
 
 # custom navigation items
 
-[[params.nav.custom]]
-title = "About"
-url = "/about"
+# [[params.nav.custom]]
+# title = "About"
+# url = "/about"
 
 [[params.nav.custom]]
-title = "Hugo"
-url = "https://gohugo.io/"
+title = "Twitter"
+url = "https://twitter.com/bam6o0"
+
+[[params.nav.custom]]
+title = "GitHub"
+url = "https://github.com/bam6o0"
