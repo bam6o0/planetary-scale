@@ -34,10 +34,15 @@ use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
 theme = "xcode"
 darkTheme = "xcode-dark"  # apply this theme in dark mode
 
-[params.share]
-enable = false
-addThisId = ""
-inlineToolId = ""
+
+[params.profile]
+  enable = true
+  #avatar = "https://pbs.twimg.com/profile_images/1215900086225387520/y7twFDPO_400x400.jpg"
+  #name = "bam6o0"
+  #bio = ""  # support markdown syntax
+  twitter = "bam6o0"  # https://twitter.com/XXX
+  github = "bam6o0"  # https://github.com/XXX
+
 
 [params.nav]
 showCategories = false    # /categories/
