@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "https://bam6o0.github.io/planetary-scale/"
 languageCode = "en-us"
 title = "Planetary Scale"
 theme = "hugo-notepadium"
