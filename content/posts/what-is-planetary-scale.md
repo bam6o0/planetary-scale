@@ -1,7 +1,7 @@
 ---
 title: "What Is Planetary Scale?"
 date: 2020-06-07T20:16:03+09:00
-draft: true
+draft: false
 ---
 
 このブログを始めるにあたって最初に定義しておきたいタイトルについて
