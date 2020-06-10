@@ -13,8 +13,8 @@ pygmentsuseclasses = true
 
 [author]
     name = "Takato Sasagawa"
-    image = "bio.jpg"
-    bio = "Microservices Platform Team at Mercari, Inc.. Please contact me via twitter."
+    #image = "bio.jpg"
+    bio = "Site Reliability Engineer"
     
 [params]
     twitter = "bam6o0"

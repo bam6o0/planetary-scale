@@ -8,7 +8,7 @@
     <title>{{ .Title }} | {{.Site.Title}}</title>
     
     {{ with .Site.Params.google_font }}<link href="https://fonts.googleapis.com/css?family={{ . }}" rel="stylesheet" type="text/css">{{ end }}
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}/css/main.css">
     <link href="{{ .Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.inc.title }}" />
     <meta name="title" content="{{ .Permalink }}">
     <link rel="canonical" href="{{ .Permalink }}">
@@ -21,7 +21,7 @@
     <section class="site-nav">
       <header>
         <nav id="navigation">
-          <a class="name" href="/">{{.Site.Title}}</a>
+          <a class="name" href="{{ .Site.BaseURL }}">{{.Site.Title}}</a>
         </nav>        
       </header>
     </section>
