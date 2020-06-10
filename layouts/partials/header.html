@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Hatena::Bookmark" content="nocomment" />
+    
+    <title>{{ .Title }} | {{.Site.Title}}</title>
+    
+    {{ with .Site.Params.google_font }}<link href="https://fonts.googleapis.com/css?family={{ . }}" rel="stylesheet" type="text/css">{{ end }}
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="{{ .Site.BaseURL }}/index.xml" rel="alternate" type="application/rss+xml" title="{{ .Site.Params.inc.title }}" />
+    <meta name="title" content="{{ .Permalink }}">
+    <link rel="canonical" href="{{ .Permalink }}">
+    
+    <meta property="og:title" content="{{ .Title }}"/>
+    <meta property="og:url" content="{{ .Permalink }}"/>
+  </head>
+  
+  <body>
+    <section class="site-nav">
+      <header>
+        <nav id="navigation">
+          <a class="name" href="/">{{.Site.Title}}</a>
+        </nav>        
+      </header>
+    </section>
+    

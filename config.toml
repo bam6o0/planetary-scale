@@ -1,63 +1,30 @@
-baseURL = "https://bam6o0.github.io/planetary-scale/"
-languageCode = "en-us"
+baseurl = "https://bam6o0.github.io/planetary-scale"
 title = "Planetary Scale"
-theme = "hugo-notepadium"
+languageCode = "ja-jp"
+copyright = "Copyright (C) 2020- Takato Sasagawa All Right Reserved."
 
-enableRobotsTXT = true
+contentdir = "content/posts"
+layoutdir = "layouts"
+publishdir = "public"
+pygmentsuseclasses = true
+    
+[indexes]
+    category = "categories"
 
-# Google Analytics
-#googleAnalytics = "UA-123-45"
-
-[markup.highlight]
-codeFences = true
-noClasses = false
-
-[markup.goldmark.renderer]
-unsafe = true  # enable raw HTML in Markdown
-
+[author]
+    name = "Takato Sasagawa"
+    image = "bio.jpg"
+    bio = "Microservices Platform Team at Mercari, Inc.. Please contact me via twitter."
+    
 [params]
-style = "auto"  # default: auto. light: light theme, dark: dark theme, auto: based on system.
-dateFormat = "Monday, January 2, 2006"  # if unset, default is "2006-01-02"
-#logo = "space_by_kosmofish.png"  # if you have a logo png
-license = ""  # CC License
-fullRss = false # Puts entire HTML post into rss 'description' tag. If unset, default is false.
+    twitter = "bam6o0"
+    github = "bam6o0"
+    google_font = "Lato:900"
 
-[params.comments]
-enable = false  # En/Disable comments globally, default: false. You can always enable comments on per page.
-
-[params.math]
-enable = false  # optional: true, false. Enable globally, default: false. You can always enable math on per page.
-use = "katex"  # option: "katex", "mathjax". default: "katex"
-
-[params.syntax]
-use = "none"  # builtin: "prismjs", "hljs". "none" means Chroma
-theme = "xcode"
-darkTheme = "xcode-dark"  # apply this theme in dark mode
+    [params.sharing]
+        twitter =true
+        
+    [params.analytics]
+        # googleid = ""
 
 
-[params.profile]
-  enable = true
-  #avatar = "https://pbs.twimg.com/profile_images/1215900086225387520/y7twFDPO_400x400.jpg"
-  #name = "bam6o0"
-  #bio = ""  # support markdown syntax
-  twitter = "bam6o0"  # https://twitter.com/XXX
-  github = "bam6o0"  # https://github.com/XXX
-
-
-[params.nav]
-showCategories = false    # /categories/
-showTags = false          # /tags/
-
-# custom navigation items
-
-# [[params.nav.custom]]
-# title = "About"
-# url = "/about"
-
-[[params.nav.custom]]
-title = "Twitter"
-url = "https://twitter.com/bam6o0"
-
-[[params.nav.custom]]
-title = "GitHub"
-url = "https://github.com/bam6o0"
