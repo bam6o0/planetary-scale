@@ -1,7 +1,7 @@
 baseurl = "https://bam6o0.github.io/planetary-scale"
 title = "Planetary Scale"
 languageCode = "ja-jp"
-copyright = "Copyright (C) 2020- Takato Sasagawa All Right Reserved."
+copyright = "Copyright (C) 2020- bam6o0 All Right Reserved."
 
 contentdir = "content/posts"
 layoutdir = "layouts"
@@ -12,7 +12,7 @@ pygmentsuseclasses = true
     category = "categories"
 
 [author]
-    name = "Takato Sasagawa"
+    name = "bam6o0"
     #image = "bio.jpg"
     bio = "Site Reliability Engineer"
     
