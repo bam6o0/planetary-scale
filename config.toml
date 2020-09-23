@@ -1,5 +1,5 @@
 baseurl = "https://bam6o0.github.io/planetary-scale"
-title = "Planetary Scale"
+title = "Clouds Above the Hill"
 languageCode = "ja-jp"
 copyright = "Copyright (C) 2020- bam6o0 All Right Reserved."
 
@@ -25,6 +25,6 @@ pygmentsuseclasses = true
         twitter =true
         
     [params.analytics]
-        # googleid = ""
+        # googleid = "UA-131422823-2"
 
 
