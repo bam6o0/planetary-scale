@@ -25,6 +25,6 @@ pygmentsuseclasses = true
         twitter =true
         
     [params.analytics]
-        # googleid = "UA-131422823-2"
+        googleid = "UA-131422823-2"
 
 
