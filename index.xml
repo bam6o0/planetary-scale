@@ -11,4 +11,4 @@ vagrantとVirtusBoxを利用して完全VM上での環境に移行すること�
 特にaws-mfaが即実行できるのは魅力的だ。
 VMの設定でホストのPCとフォルダを共有する設定がよくあるが、devevnは完全に独立している。共有はホスト環境とのファイルシステムの違いや権限など様々な問題の原因になるため個人的には非推奨である。 ポートは80と8080をポートフォワーディングしている。正直ポートは指定すればこの二つだけで十分だと思う。 コードやコンテナイメージのホスティングサービス、クラウドサービスを積極的に活用することが現代らしい開発環境ではないだろうかと思う。
 まとめ 正直現状はVagrantfileに各種セットアップのためのコマンドを書きなぐった程度のものだが、今後の環境構築コストは大幅に短縮できるようになった。 また環境構築の知識と経験を資産にでき、改善のためのPDCAを回せるようになった点も大きい。
-なにより、常に真っ新な環境で新規開発を始めれる喜び、これに勝るものはなし。</description></item><item><title>Planetary Scaleとは何か</title><link>https://bam6o0.github.io/planetary-scale/what-is-planetary-scale/</link><pubDate>Sun, 07 Jun 2020 20:16:03 +0900</pubDate><guid>https://bam6o0.github.io/planetary-scale/what-is-planetary-scale/</guid><description>このブログを始めるにあたって最初に定義しておきたいタイトルについて</description></item></channel></rss>
+なにより、常に真っ新な環境で新規開発を始めれる喜び、これに勝るものはなし。</description></item></channel></rss>
